@@ -1,0 +1,87 @@
+.blog {
+    font-family: 'Playfair Display';
+}
+
+.blog .heading {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.blog .title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    margin-bottom: 70px;
+}
+
+
+
+.blog .card{
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+}
+.blog .card img{
+    border-radius: 0;
+    transition: all 0.5s;
+}
+.blog .card:hover img{
+    transform: scale(1.1);
+}
+
+
+
+.card-text span{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.4) !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.8;
+    font-family: 'Quicksand';
+}
+
+.card-text h3{
+    font-size: 16px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Quicksand", Arial, sans-serif;
+}
+
+.card-text p{
+    margin-top: 25px;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+/* button */
+.blog .button{
+    margin: 20px 0 50px;
+}
+
+.blog .button a{
+    background-color: #2c98f0;
+    padding: 15px 35px;
+    color: #fff;
+
+    font-family: "Quicksand";
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
